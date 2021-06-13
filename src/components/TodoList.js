@@ -41,7 +41,7 @@ function TodoList() {
     }
 
     return (
-        <div>
+        <div className='todo-app'>
             <h1>Plan for today!</h1>
             <TodoForm onSubmit={addTodo}/>
             <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
