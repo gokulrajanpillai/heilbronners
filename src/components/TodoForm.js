@@ -18,7 +18,7 @@ function TodoForm(props) {
         setInput('')
     };
     return (
-        <form classname='todo-form' onSubmit={handleSubmit}>
+        <form className='todo-form' onSubmit={handleSubmit}>
             <input
                 type='text'
                 placeholder='Add a todo'
