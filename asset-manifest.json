@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7bd7589.chunk.css",
-    "main.js": "/static/js/main.634555ff.chunk.js",
-    "main.js.map": "/static/js/main.634555ff.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a0ddeaa1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a0ddeaa1.js.map",
-    "static/js/2.d81b02cd.chunk.js": "/static/js/2.d81b02cd.chunk.js",
-    "static/js/2.d81b02cd.chunk.js.map": "/static/js/2.d81b02cd.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.f7bd7589.chunk.css.map": "/static/css/main.f7bd7589.chunk.css.map",
-    "static/js/2.d81b02cd.chunk.js.LICENSE.txt": "/static/js/2.d81b02cd.chunk.js.LICENSE.txt"
+    "main.css": "//gokulrajanpillai.github.io/heilbronners/static/css/main.f7bd7589.chunk.css",
+    "main.js": "//gokulrajanpillai.github.io/heilbronners/static/js/main.634555ff.chunk.js",
+    "main.js.map": "//gokulrajanpillai.github.io/heilbronners/static/js/main.634555ff.chunk.js.map",
+    "runtime-main.js": "//gokulrajanpillai.github.io/heilbronners/static/js/runtime-main.4e446381.js",
+    "runtime-main.js.map": "//gokulrajanpillai.github.io/heilbronners/static/js/runtime-main.4e446381.js.map",
+    "static/js/2.d81b02cd.chunk.js": "//gokulrajanpillai.github.io/heilbronners/static/js/2.d81b02cd.chunk.js",
+    "static/js/2.d81b02cd.chunk.js.map": "//gokulrajanpillai.github.io/heilbronners/static/js/2.d81b02cd.chunk.js.map",
+    "index.html": "//gokulrajanpillai.github.io/heilbronners/index.html",
+    "static/css/main.f7bd7589.chunk.css.map": "//gokulrajanpillai.github.io/heilbronners/static/css/main.f7bd7589.chunk.css.map",
+    "static/js/2.d81b02cd.chunk.js.LICENSE.txt": "//gokulrajanpillai.github.io/heilbronners/static/js/2.d81b02cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a0ddeaa1.js",
+    "static/js/runtime-main.4e446381.js",
     "static/js/2.d81b02cd.chunk.js",
     "static/css/main.f7bd7589.chunk.css",
     "static/js/main.634555ff.chunk.js"
