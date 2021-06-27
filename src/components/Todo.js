@@ -21,22 +21,25 @@ function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
   if (edit.id) {
     return <TodoForm edit={edit} onSubmit={submitUpdate} />;
   }
-
+  console.log("Todos: ", JSON.stringify(todos))
+  todos.map((todo, index) => (
+    console.log("topic: ", todo)
+  ));
   return todos.map((todo, index) => (
     <div
       className={todo.isComplete ? "todo-row complete" : "todo-row"}
       key={index}
     >
-      <div key={todo.id} onClick={() => completeTodo(todo.id)}>
-        {todo.text}
+      <div key={todo.ID} onClick={() => completeTodo(todo.ID)}>
+        {todo.Topic}
       </div>
       <div className="icons">
         <RiCloseCircleLine
-          onClick={() => removeTodo(todo.id)}
+          onClick={() => removeTodo(todo.ID)}
           className="delete-icon"
         />
         <TiEdit
-          onClick={() => setEdit({ id: todo.id, value: todo.text })}
+          onClick={() => setEdit({ id: todo.ID, value: todo.Topic })}
           className="edit-icon"
         />
       </div>

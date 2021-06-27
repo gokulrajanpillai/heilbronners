@@ -9,7 +9,20 @@ function TodoList() {
   useEffect(() => {
     //API call to retrieve spread sheet values
     GoogleSheetService.RetrieveTopics().then((values) => {
-      setTodos(values);
+      // console.log("Topics retrieved: ", JSON.stringify(values))
+      for (let value of values) {
+        let val = value["Topic"]
+        // console.log("Sending request for topic: ", JSON.stringify(value))
+        GoogleSheetService.RetrieveSubTopics(val).then((vals) => {
+
+          // console.log("Subtopics retrieved: ", JSON.stringify(values))
+          // for (let value in values) {
+          //   setTodos(value);  
+          // }
+          setTodos(vals);
+        });
+      }
+      // setTodos(values);
     });
   }, []);
 
@@ -40,6 +53,7 @@ function TodoList() {
   };
 
   const completeTodo = (id) => {
+    console.log("Todos - completeTodo: ", JSON.stringify(todos))
     let updatedTodos = todos.map((todo) => {
       if (todo.id === id) {
         todo.isComplete = !todo.isComplete;
